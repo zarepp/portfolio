@@ -25,6 +25,8 @@ import gmail from './../images/gmail.png';
 import linkedin from './../images/linkedin.png';
 import github from './../images/github.png';
 
+const resumeURL = "https://drive.google.com/uc?authuser=0&id=1JUYISK7xhqpSzZI3i9nWJuBGDYwaQKIO&export=download";
+
 const styles = theme => ({
   appBar: {
     position: 'relative',
@@ -132,7 +134,7 @@ function Album(props) {
             <div className={classes.heroButtons}>
               <Grid container spacing={16} justify="center">
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button href={resumeURL} variant="outlined" color="primary">
                     <CloudDownloadIcon />
                     &nbsp;&nbsp;Resume PDF
                   </Button>
