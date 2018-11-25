@@ -143,7 +143,7 @@ function Album(props) {
               Zharif Othman
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary" paragraph>
-              Backend Software Engineer, Full-Stack Developer, Node.js Developer
+              Full-Stack Developer, Backend Software Engineer, Node.js Developer
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={16} justify="center">
